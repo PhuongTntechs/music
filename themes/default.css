@@ -1,0 +1,170 @@
+body {
+	padding-top: 70px;
+	background: #63AFDE url('images/page.png');
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.maintxt
+{
+	background-color: #fff;
+	padding: 20px;
+}
+
+
+hr {
+ border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.title {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.border {
+	border: 1px solid #d9534f;
+	width: 27%;
+	padding: 0px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.max-width
+{
+	width: 100%;
+}
+
+.bg-warning {
+	border: 1px solid #ec2d68;
+	padding: 10px;
+}
+
+.footer
+{
+	color: #ededed;
+	background-color: #3b3b3b;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    width: 1170px;
+  }
+}
+
+/*  page */
+.apage {
+	border: 1px solid #606060;
+	color: black;
+	background-color: #fff;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.apage.active {
+	background-color: #b2b2b2;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*
+Song
+*/
+.title-song
+{
+	font-size: 1.8em;
+	padding-top: 5px;
+}
+
+.option-song a, .option-song
+{
+	font-size: 1.1em;
+	color: #646464;
+	text-decoration: none;
+}
+
+.lyric
+{
+	border: 1px solid #c2c2c2;
+	padding: 10px;
+}
+
+.option-song
+{
+	padding: 7px;
+	border-bottom: 1px solid #e2e2e2;
+	border-top: 1px solid #e2e2e2;
+}
+
+.list
+{
+	border-bottom: 1px solid #e2e2e2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.name-song
+{
+	color: #444444;
+	text-decoration: none;
+}
+
+.artist-song
+{
+	color: #a299a5;
+	text-decoration: none;
+}
+
+.audio
+{
+	width: 80%;
+}
+
+@media (min-width: 768px) {
+  .audio {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .audio {
+    width: 65%;
+  }
+}
+@media (min-width: 1200px) {
+  .audio {
+    width: 80%;
+  }
+}
+
+.notify
+{
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 999;
+	width: 100%;
+	padding: 20px;
+	border: 1px solid transparent;
+	background-color: #ffff90;
+	color: green;
+	text-transform: uppercase;
+	text-align: center;
+}
